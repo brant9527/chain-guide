@@ -5,3 +5,5 @@
   请勿使用淘宝
   4. npm install node-gyp && npm install mongose && npm i paixaop/node-sodium
   5. npm install sqlite3
+  6. git submodule init
+  7. git submodule update
