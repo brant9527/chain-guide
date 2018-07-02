@@ -19,3 +19,20 @@
 1. https://www.cnblogs.com/weschen/p/7395667.html 
 以上安装步骤作者来自mongo官网，主要是验证步骤是否成功
 2. 附上mongo官网安装教材 https://docs.mongodb.com/v3.6/tutorial/install-mongodb-on-ubuntu/
+## 安装node
+1、先在系统上安装好nodejs和npm
+sudo apt-get install nodejs-legacy
+sudo apt-get install npm
+2、升级npm为最新版本
+sudo npm install npm@latest -g
+3、安装用于安装nodejs的模块n
+sudo npm install -g n
+
+4、通过n模块安装指定的nodejs
+sudo n latest //最新  
+sudo n stable // 最稳定
+sudo n lts //不知道没去看
+5、查看版本
+sudo node -v
+sudo npm -v
+
