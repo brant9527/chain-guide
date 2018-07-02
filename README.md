@@ -7,3 +7,15 @@
   5. npm install sqlite3
   6. git submodule init
   7. git submodule update
+## ubuntu 安装
+1. git clone 192.168.18.26:22/tfs/DefaultCollection/_git/IFMChainEngine
+2. npm install 
+3. git submodule init
+4. git submodule update
+5. npm install &&npm link // 在ifmchain-js下
+6. npm install && npm install bower -g && bower install  && npm install grunt-cli -g //public目录下
+7. grunt release:testnet
+## mongo安装
+1. https://www.cnblogs.com/weschen/p/7395667.html 
+以上安装步骤作者来自mongo官网，主要是验证步骤是否成功
+2. 附上mongo官网安装教材 https://docs.mongodb.com/v3.6/tutorial/install-mongodb-on-ubuntu/
