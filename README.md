@@ -35,4 +35,23 @@ sudo n lts //不知道没去看
 5、查看版本
 sudo node -v
 sudo npm -v
-
+## 更换镜像 
+1. sudo gedit /etc/apt/sources.list 
+2. deb http://mirrors.163.com/ubuntu/ precise-updates main restricted
+3. deb-src http://mirrors.163.com/ubuntu/ precise-updates main restricted
+4. deb http://mirrors.163.com/ubuntu/ precise universe
+5. deb-src http://mirrors.163.com/ubuntu/ precise universe
+6. deb http://mirrors.163.com/ubuntu/ precise-updates universe
+7. deb-src http://mirrors.163.com/ubuntu/ precise-updates universe
+8. deb http://mirrors.163.com/ubuntu/ precise multiverse
+9. deb-src http://mirrors.163.com/ubuntu/ precise multiverse
+10. deb http://mirrors.163.com/ubuntu/ precise-updates multiverse
+11. deb-src http://mirrors.163.com/ubuntu/ precise-updates multiverse
+12. deb http://mirrors.163.com/ubuntu/ precise-backports main restricted universe multiverse
+13. sudo apt-get update
+## ubuntu安装谷歌浏览器
+1. sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+2. wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+3. sudo apt-get update
+4. sudo apt-get install google-chrome-stable
+5. google-chrome-stable
