@@ -59,3 +59,9 @@ sudo npm -v
 1. sudo add-apt-repository ppa:hzwhuang/ss-qt5
 2. sudo apt-get update
 3. sudo apt-get install shadowsocks-qt5
+## nvm 管理 node
+1. curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+2. nvm ls-remote
+3. nvm install vX.X.X 
+ ## nvm alias default v6.10.2 默认某个版本
+ ## nvm use v6.10.2 //使用某个版本
