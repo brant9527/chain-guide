@@ -33,12 +33,12 @@ sudo npm install npm@latest -g
 sudo npm install -g n
 
 4、通过n模块安装指定的nodejs
->> sudo n latest //最新  
->>sudo n stable // 最稳定
->> sudo n lts //不知道没去看
+* sudo n latest //最新  
+* sudo n stable // 最稳定
+* sudo n lts //不知道没去看
 5、查看版本
->> sudo node -v
->> sudo npm -v
+* sudo node -v
+* sudo npm -v
 ## 更换镜像 
 1. sudo gedit /etc/apt/sources.list 
 2. deb http://mirrors.163.com/ubuntu/ precise-updates main restricted
@@ -67,7 +67,7 @@ sudo npm install -g n
 1. curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 2. nvm ls-remote
 3. nvm install vX.X.X 
->>  nvm alias default v6.10.2 默认某个版本
->> nvm use v6.10.2 //使用某个版本
+*  nvm alias default v6.10.2 默认某个版本
+* nvm use v6.10.2 //使用某个版本
 ## 软件大集合 
->>  https://blog.csdn.net/liuqz2009/article/details/52087019
+* https://blog.csdn.net/liuqz2009/article/details/52087019
