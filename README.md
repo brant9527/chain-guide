@@ -9,7 +9,9 @@
   7. git submodule update
 ## ubuntu 安装
 1. git clone 192.168.18.26:22/tfs/DefaultCollection/_git/IFMChainEngine
-2. npm install && npm install automake&& npm install gcc && npm rebuild
+2. npm install && npm install automake&& npm install gcc
+ * sudo npm i sodium(root权限下)
+ * npm rebuild (错误提示下)
 3. git submodule init
 4. git submodule update
 5. npm install &&npm link // 在ifmchain-js下
