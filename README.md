@@ -19,10 +19,10 @@
 1. https://www.cnblogs.com/weschen/p/7395667.html 
 以上安装步骤作者来自mongo官网，主要是验证步骤是否成功
 2. 附上mongo官网安装教材 https://docs.mongodb.com/v3.6/tutorial/install-mongodb-on-ubuntu/
->> sudo service mongod stop　　#停止服务
->> sudo service mongod start　　#启动服务
->> sudo service mongod restart #重新启动服务
->> sudo service mongod status #查看状态
+* sudo service mongod stop　　#停止服务
+* sudo service mongod start　　#启动服务
+* sudo service mongod restart #重新启动服务
+* sudo service mongod status #查看状态
 ## 安装node
 1、先在系统上安装好nodejs和npm
 >> sudo apt-get install nodejs-legacy
