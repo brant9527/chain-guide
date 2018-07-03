@@ -19,22 +19,26 @@
 1. https://www.cnblogs.com/weschen/p/7395667.html 
 以上安装步骤作者来自mongo官网，主要是验证步骤是否成功
 2. 附上mongo官网安装教材 https://docs.mongodb.com/v3.6/tutorial/install-mongodb-on-ubuntu/
+>> sudo service mongod stop　　#停止服务
+>> sudo service mongod start　　#启动服务
+>> sudo service mongod restart #重新启动服务
+>> sudo service mongod status #查看状态
 ## 安装node
 1、先在系统上安装好nodejs和npm
-sudo apt-get install nodejs-legacy
-sudo apt-get install npm
+>> sudo apt-get install nodejs-legacy
+>> sudo apt-get install npm
 2、升级npm为最新版本
 sudo npm install npm@latest -g
 3、安装用于安装nodejs的模块n
 sudo npm install -g n
 
 4、通过n模块安装指定的nodejs
-sudo n latest //最新  
-sudo n stable // 最稳定
-sudo n lts //不知道没去看
+>> sudo n latest //最新  
+>>sudo n stable // 最稳定
+>> sudo n lts //不知道没去看
 5、查看版本
-sudo node -v
-sudo npm -v
+>> sudo node -v
+>> sudo npm -v
 ## 更换镜像 
 1. sudo gedit /etc/apt/sources.list 
 2. deb http://mirrors.163.com/ubuntu/ precise-updates main restricted
@@ -63,7 +67,7 @@ sudo npm -v
 1. curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 2. nvm ls-remote
 3. nvm install vX.X.X 
- ## nvm alias default v6.10.2 默认某个版本
- ## nvm use v6.10.2 //使用某个版本
- ## 软件大集合 
- 1. https://blog.csdn.net/liuqz2009/article/details/52087019
+>>  nvm alias default v6.10.2 默认某个版本
+>> nvm use v6.10.2 //使用某个版本
+## 软件大集合 
+>>  https://blog.csdn.net/liuqz2009/article/details/52087019
