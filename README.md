@@ -23,6 +23,7 @@
 * sudo service mongod start　　#启动服务
 * sudo service mongod restart #重新启动服务
 * sudo service mongod status #查看状态
+* sudo systemctl enable mongod #开机启动
 ## 安装node
 1、先在系统上安装好nodejs和npm
 >> sudo apt-get install nodejs-legacy
