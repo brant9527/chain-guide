@@ -26,8 +26,8 @@
 * sudo systemctl enable mongod #开机启动
 ## 安装node
 1、先在系统上安装好nodejs和npm
->> sudo apt-get install nodejs-legacy
->> sudo apt-get install npm
+* sudo apt-get install nodejs-legacy
+* sudo apt-get install npm
 2、升级npm为最新版本
 sudo npm install npm@latest -g
 3、安装用于安装nodejs的模块n
