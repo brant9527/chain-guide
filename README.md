@@ -65,3 +65,5 @@ sudo npm -v
 3. nvm install vX.X.X 
  ## nvm alias default v6.10.2 默认某个版本
  ## nvm use v6.10.2 //使用某个版本
+ ## 软件大集合 
+ 1. https://blog.csdn.net/liuqz2009/article/details/52087019
