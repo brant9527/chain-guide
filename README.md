@@ -72,3 +72,6 @@ sudo npm install -g n
 * nvm use v6.10.2 //使用某个版本
 ## 软件大集合 
 * https://blog.csdn.net/liuqz2009/article/details/52087019
+## 安装vscode
+1. 先官网下载deb格式文件
+2. sudo dpkg -i <file>.deb 安装
