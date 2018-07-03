@@ -55,3 +55,7 @@ sudo npm -v
 3. sudo apt-get update
 4. sudo apt-get install google-chrome-stable
 5. google-chrome-stable
+## shadowsocks-qt5 
+1. sudo add-apt-repository ppa:hzwhuang/ss-qt5
+2. sudo apt-get update
+3. sudo apt-get install shadowsocks-qt5
