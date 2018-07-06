@@ -1,3 +1,4 @@
+##windows
 1.git 拉取项目 配密钥的情况下
   1. git clone xmn-dev-vps01:22/tfs/DefaultCollection/_git/IFMChainEngine
   2. npm install 
@@ -66,6 +67,7 @@ sudo npm install -g n
 1. sudo add-apt-repository ppa:hzwhuang/ss-qt5
 2. sudo apt-get update
 3. sudo apt-get install shadowsocks-qt5
+* https://blog.csdn.net/superbfly/article/details/54950451 //设置本地代理
 ## nvm 管理 node
 1. curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 2. nvm ls-remote
